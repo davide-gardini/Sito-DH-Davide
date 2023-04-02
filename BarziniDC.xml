@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection xmlns:dc="http://purl.org/dc/elements/1.1/" xml:id="'15-'18. L'Italia e la Grande Guerra">
+	<item xml:id="Dal Trentino al Carso">
+		<dc:title>La guerra d'Italia. Dal Trentino al Carso (agosto-novembre 1916)</dc:title>
+		<dc:creator href="https://viaf.org/viaf/4941200/#Barzini,_Luigi,_1874-1947">Luigi Barzini</dc:creator>
+		<dc:date>1917</dc:date>
+		<dc:subject>Trentino, Carso</dc:subject>
+		<dc:subject>Prima Guerra Mondiale, 1916</dc:subject>
+		<dc:description>Resoconto quotidiano dell'autore stesso sul fronte del versante che va dal Trentino al Carso, con una cronaca accurata degli eventi e degli scontri</dc:description>
+		<dc:publisher>Fratelli Treves Editori</dc:publisher>
+		<dc:type>Reportage quotidiano di guerra e degli eventi</dc:type>
+		<dc:format>Libro</dc:format>
+		<dc:identifier>BarziniDalTrentinoAlCarso</dc:identifier>
+		<dc:identifier>ark:/13960/t72v8sf9p</dc:identifier>
+		<dc:language>Italiano</dc:language>
+		<dc:rights>Public Domain Mark 1.0</dc:rights>
+	</item>
+</collection>

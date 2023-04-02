@@ -1,0 +1,59 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>
+				<!--supply a title-->
+				La guerra d'Italia. Dal Trentino al Carso
+ 				</title>
+ 				<!--dopo title metto mia resp-->
+ 				<respStmt>
+				 	<resp>Marcatura</resp>
+				 	<name xml:id="DG">Davide Gardini</name>
+ 				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Internet Archive</publisher>
+			</publicationStmt>
+ 			<sourceDesc>
+ 				<bibl>
+ 					<title>La guerra d'Italia. Dal Trentino al Carso (agosto-novembre 1916)</title>
+					<author>Barzini, Luigi</author>
+					<publisher>Fratelli Treves Editori</publisher>
+					<pubPlace>Milano</pubPlace>
+					<date>1917</date>
+ 				</bibl>
+				<p>
+				<!--supply information about the source-->
+				Reportage dalle zone del conflitto comprese tra il Trentino e il Carso
+				</p>
+ 			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>NOTTE VENEZIANA DI GUERRA</head>
+			<p><name type="place" resp="DG">Venezia</name>, <data when="1916-08-18" calendar="Gregorian" resp="DG">18 agosto 1916</data></p>
+			<p>È l’ora in cui essi arrivano.</p>
+			<p>La luna è già alta sull’<name type="place" resp="DG">Isola di Sant’Elena</name> e il suo chiarore si è disteso sulle acque; ha messo ai piedi degli edifici di Venezia la stessa opalescenza che è nel cielo. Venezia oscura si libra in una pallida e quieta serenità, naviga in
+			un’atmosfera di sogno. È l’ora in cui essi arrivano.</p>
+			<p>Hanno bisogno del lume di luna. Le spiagge in queste serate si disegnano nere sul mare imbevuto di luce ed è facile, volando, trovare la rotta per piombare su <name type="place" resp="DG">Venezia</name>. La ragione delle loro incursioni sulla Laguna, quasi quotidiane in questi giorni, è il plenilunio. Quando si presentano delle condizioni favorevoli per commettere degli atti abominevoli, bisognerebbe non essere austriaci per non commetterli. Le più belle notti veneziane sono ora notti di bombardamento. Sulla tranquillità profonda luminosa, dolce, fatata di Venezia, sulla sua pace mistica, fulmineamente la guerra irrompe col suo tumulto feroce. Tutta la città la aspetta adesso, muta, fiera, sdegnosa. Iersera non vennero, verranno questa sera. L’aria è limpida e calma: il tempo che ci vuole per dar battaglia ai monumenti.</p>
+			<p>Nessuno dorme. Qualche passo si attarda sulle rive bianche e risonanti della <rs type="place" resp="DG">Piazzetta</rs> e degli Schiavoni. Fuori dei caffè chiusi, piccole comitive seggono intorno ai tavoli, nel buio, e bisbigliano. Ombre di passeggiatori si muovono lente negl’intercolonni delle Procuratie. Un orologio suona le undici. A quest’ora l’altra sera erano già arrivati: è che la luna sorgeva più presto. Non possono tardare molto.</p>
+			<p><num value="2" resp="DG">Due</num> o <num value="3" resp="DG">tre</num> gruppetti di persone immobili sulla Piazza contemplano la Basilica barricata di sacchi, pallida e come diafana nel chiarore lunare, solenne,prodigiosa, vivente, e sembrano inchiodati da quella visione. Forse si chiedono con un’angoscia inespressa se fra un’ora la Chiesa sarà così, intatta, e se non c’è nelle magnificenze che i loro occhi carezzano qualche cosa che sta per morire.</p>
+			<p><name type="place" resp="DG">San Marco</name> si è preparata silenziosamente al pericolo. Sui suoi tetti di piombo, striato di nero come marmo antico, nel vario e fantastico paesaggio di cupole e di cuspidi, entro nicchie blindate vegliano le vedette del fuoco, degli operai della Fabbriceria, e altre guardie volontarie sono disposte sulle balconate della facciata e sui culmini del <rs type="organisation" resp="DG">Palazzo dei Dogi</rs>. I pompieri aspettano l'allarme sopra le loro macchine galleggianti nel Rio.</p>
+			<p>Anche nell’interno della <rs type="place" resp="DG">Basilica</rs> la sorveglianza è in fazione. Un uomo vigila nel cuore di quella massa di tenebre, immensa e paurosa, solcata da tenui riflessi d’oro sospesi al ciglio di archi invisibili, percorsa da barlumi lievi e lontani che sembrano apparire nelle profondità smisurate di un cielo notturno. La luce flebile della lampada solitaria che arde da sette secoli avanti alla Pietra del Miracolo si sperde; la Chiesa non ha più limiti nell'ombra; essa allarga all’infinito la vastità sontuosa delle sue sagome; abbraccia la notte. Ma quando la luna arriva a sfiorare le cupole, gli occhi che coronano le loro basi si empiono di diafanità e formano rotonde collane di pallori misteriosamente sospese nel buio.</p>
+			<p>Sono le undici e mezzo. Improvvisamente, le rare lampade della città si spengono. Spariscono le fioche luci azzurre e senza splendore che incastravano la loro fosforescenza qua e là nel labirinto fosco dei porticati e dei crocicchi, copie quelle lucciole immobili che costellano gl’intrecci dell’erba. È il primo segnale di allarme. Il nemico si avvicina.</p>
+			<p>Si ode per tutto un rumore di battenti che si schiudono. Ogni casa spalanca la sua porta e offre l’ospitalità della sua corte e dei suoi anditi. Chi è per via allunga il passo e varca la prima soglia. Arriva dall’interno degli edifici abbuiati un brusìo di gente che dai piani alti, i più minacciati, scende senza spavento e senza fretta. Delle voci avvertono, chiamano: «<hi rend="italic" resp="DG">Vegnì zo! I xe qua!</hi>».</p>
+			<p>«<hi rend="italic" resp="DG">I xe qua</hi>!» — niente altro. Vi si sente l’abitudine e il disprezzo.</p>
+			<p>Tutto si quieta a poco a poco. I vaporini che facevano le ultime corse sul <name type="place" resp="DG">Canal Grande</name> hanno spento i fanali e si serrano ai pontili, con i quali si confondono, mandando un soffio lieve di vapore come un ansimare represso. Non un tuffo di remi nell’ombra dei canali.</p>
+			<p>Nessun battello si muove. Le gondole abbandonate nereggiano in folla presso alla riva fra i pali d’ormeggio. È dileguato ogni segno di vita umana. <name type="place" resp="DG">Venezia</name> sembra vuota, sola, più grande, e ad un tratto si ha la percezione di una sua vita misteriosa e possente. Pare che la emozione che ci afferra, confusa, inesprimibile, venga dal sentimento di una presenza animata, immane, soggiogatrice. Un colpo di cannone squarcia il silenzio.</p>
+			<p>È il secondo segnale.</p>
+			<p>Un ululato sovrumano erompe, il grido inatteso di una sirena. Altre sirene lontane, da ogni quartiere, rispondono. È un coro di clamori lamentosi, lugubri, violenti, disperati. Poi il silenzio si ricompone, profondo, assoluto.</p>
+			<p>Gli ultimi minuti passano lenti, pesanti, sinistri, come quelle epoche incommensurabili che trascorrono nell’incubo. <name type="place" resp="DG">Venezia</name>! <name type="place" resp="DG">Venezia</name>!</p>
+			<p>I tuoi assassini arrivano!... Eccoli!...</p>
+			<p>Scie sfavillanti di razzi azzurri zampillano e s’inarcano nel cielo. Da ogni parte erompono candidi raggi di proiettori. Sprizzano scintillamenti lividi lungo le rive e scroscia veemente un martellare serrato di mitragliatrici. Scariche di fucileria si succedono, più lontane, con quel loro rumore di cosa che si laceri. L’orizzonte si accende di un palpitare tumultuoso di vampe, e il severo profilo di Venezia si disegna più tagliente e più nero contro il balenìo; l’artiglieria ha aperto il fuoco.</p>
+			<p>Cupi e echeggianti i colpi di cannone si sgranano.</p>
+			<p>La notte è tutta solcata dai soffi canori dei proiettili, e, alti sulla città, <hi rend="italic" resp="DG">shrapnells</hi> e granate scoppiano ininterrottamente, a stormi, con immenso fragore, punteggiando il sereno di vividi bagliori che gettano sulle cupole e sui campanili un tremolìo di riflessi. E tutto, razzi, proiettori, mitragliatrici, fucili, cannoni, tutto s’infiamma, scoppietta, divampa, tuona nel medesimo istante. Non vi è stata una gradazione di violenza. La guerra è sopraggiunta in un secondo con una pienezza di furore.</p>
+		</body>
+	</text>
+</TEI>

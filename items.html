@@ -1,0 +1,253 @@
+<!DOCTYPE html> <!--foglio secondario,legato all'index tramite il collegamento con href, in cui inserisco la pagina dedicata ad una voce secondaria-->
+<html lang="it">
+	<head>
+		<!--charset-->
+		<meta charset="utf-8">
+		<!--inserisco metadati DC-->
+		<meta name="DC.Title" content="'15-'18. L'Italia e la Grande Guerra">
+		<meta name="DC.Creator" content="Davide Gardini">
+		<meta name="DC.Subject" content="Enciclopedia con testi, immagini e filmati realtive all'Italia nella Prima Guerra mondiale">
+		<meta name="DC.Description" content="Enciclopedia con raccolta di vari oggetti al fine di dare una generale illustrazione dell'Italia in relazione al Primo Conflitto mondiale">
+		<!--inserisco il titolo del sito-->
+		<title>'15-'18. L'Italia e la Grande Guerra</title>
+		<!--inserisco link di Bootstrap per CSS-->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+		<!--incollo link per foglio CSS-->
+		<link rel="stylesheet" href="stile.css"/>
+	</head>
+	<body>
+		<header>
+			<section class="container-fluid" style="background-color:rgb(255, 255, 204)">
+				<div class="row">
+					<div class="col-md-12">
+						<h1>'15-'18. L'Italia e la Grande Guerra</h1>
+					</div>
+				</div>
+			</section>
+			<!--copio link della navbar di bootstrap-->
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  				<a class="navbar-link disabled"><b><i>Opzioni</i></b></a>
+  				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    				<span class="navbar-toggler-icon"></span>
+  				</button>
+  				<!--Compilo la Navbar inserendo le parole che occorrono per la navigazione, allegando ad ogni voce la pagina corrispondente, in modo che l'utente possa raggiungere la pagina desiderata-->
+
+  				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+    				<ul class="navbar-nav mr-auto">
+      					<li class="nav-item active">
+        					<a class="nav-link" href="index-es.html">Home <span class="sr-only">(current)</span></a>
+      					</li>
+      					<li class="nav-item">
+        					<a class="nav-link" href="#">Cronologia</a>
+      					</li>
+      					<li class="nav-item dropdown">
+        					<a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">Galleria
+        					</a>
+        					<div class="dropdown-menu">
+          						<a class="dropdown-item" href="#" target="_blank" title="Personaggi">Mappa</a>
+          						<a class="dropdown-item" href="#" target="_blank" title="Items">Items</a>
+          						<div class="dropdown-divider"></div>
+          						<a class="dropdown-item" href="personaggi-es.html" target="_blank" title="Items">Personaggi</a>
+        					</div>
+      					</li>
+      					<li class="nav-item">
+      						<a class="nav-link disabled">|</a>
+      					</li>
+      					<li class="nav-item">
+        					<a class="nav-link" href="bibliografia-es.html" target="_blank">Bibliografia</a>
+        				</li>
+        				<li class="nav-item">
+        					<a class="nav-link" href="filmografia.html" target="_blank">Filmografia</a>
+      					</li>
+    				</ul>
+    				<form class="form-inline my-2 my-lg-0">
+      					<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    				</form>
+  				</div>
+			</nav>
+		</header>
+		<main>
+			<section class="container-fluid">
+	      		<div class="row">
+	        		<div class="col-md-12 pb-4 pt-4 bg-secondary text-white">
+	          			<h2 class="text-center">Items</h2>
+	        		</div>
+	      		</div>
+	      		<div class="row">
+	      			<div class="col-md-2">
+	      				<aside>
+	      					<!--inserisco il breadcrumbs-->
+	      					<nav aria-label="breadcrumb">
+								<ol class="breadcrumb">
+									<li class="breadcrumb-item"><a href="index-es.html" title="Torna alla Home">Home</a></li>
+									<li class="breadcrumb-item active" aria-current="page">Galleria-items</li>
+								</ol>
+							</nav>
+							<div class="checkbox-container">
+								<!--filtri-->
+								<h3>Filtri di ricerca</h3>
+								<div class="btn-group dropright mt-1">
+  									<button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+  									  Tipologia
+  									</button>
+  									<div class="dropdown-menu p-3">
+    									<!--Checkbox-->
+    									<input type="checkbox">
+  										<label>Video</label><br>
+  										<input type="checkbox">
+  										<label>Immagini</label><br>
+  										<input type="checkbox">
+  										<label>Documenti</label><br>
+  										<input type="checkbox">
+  										<label>Giornali</label><br>
+  										<button type="button" class="btn btn-primary">Applica</button>
+  									</div>
+								</div>
+							</div>
+	      				</aside>
+	      			</div>
+	      			<div class="col-md-9 p-3">
+						<div class="row">
+							<div class="col-md-4 mt-3 p-3">
+								<div class="card card-item" style="width: 18rem;">
+								  	<img src="imm-es/imm-item/caporetto.jpg" class="card-img-top" alt="Alessandro Barbero su Caporetto">
+								  	<div class="card-body">
+								    	<h5 class="card-title">Prima Guerra mondiale. Caporetto</h5>
+								    	<p class="card-text">Alessandro Barbero</p>
+								    	<a href="https://www.youtube.com/watch?v=1RyXSK5KEFU&t=41s" class="btn btn-outline-secondary" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-camera-reels-fill" viewBox="0 0 16 16">
+									  		<path d="M6 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+									  		<path d="M9 6a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+									  		<path d="M9 6h.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 7.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 16H2a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h7z"/>
+										</svg>Visualizza</a>
+								  	</div>
+								</div>
+							</div>
+							<div class="col-md-4 mt-3 p-3">
+								<div class="card card-item" style="width: 18rem;">
+								  	<img src="imm-es/imm-item/svolta-1917.jpg" class="card-img-top" alt="La svolta del 1917">
+								  	<div class="card-body">
+								    	<h5 class="card-title">L'Italia nella Prima Guerra mondiale.</h5>
+								    	<p class="card-text">1917, l'anno della svolta</p>
+								    	<a href="https://www.youtube.com/watch?v=k-mXHkoYeNM" class="btn btn-outline-secondary" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-camera-reels-fill" viewBox="0 0 16 16">
+									  		<path d="M6 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+									  		<path d="M9 6a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+									  		<path d="M9 6h.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 7.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 16H2a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h7z"/>
+										</svg>Visualizza</a>
+								  	</div>
+								</div>
+							</div>
+							<div class="col-md-4 mt-3 p-3">
+								<div class="card card-item" style="width: 18rem;">
+								  	<img src="imm-es/imm-item/100-anni-dopo.jpg" class="card-img-top" alt="100 anni dopo">
+								  	<div class="card-body">
+								    	<h5 class="card-title">'14-'18: Grande Guerra. 100 anni dopo</h5>
+								    	<p class="card-text">Non Ancora: l'Italia dalla neutralità all'intervento</p>
+								    	<a href="https://www.raiplay.it/video/2019/02/14-18-Grande-Guerra-100-anni-dopo---pt-4-8ccfebe5-32ae-44f7-9429-8ff97c9d1dee.html" class="btn btn-outline-secondary" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-camera-reels-fill" viewBox="0 0 16 16">
+									  		<path d="M6 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+									  		<path d="M9 6a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+									  		<path d="M9 6h.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 7.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 16H2a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h7z"/>
+										</svg>Visualizza</a>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-4 mt-3 p-3">
+								<div class="card card-item" style="width: 18rem;">
+								  	<img src="imm-es/imm-item/alpini-1916.jpg" class="card-img-top" alt="Alpini sul Monte Nero">
+								  	<div class="card-body">
+								    	<h5 class="card-title">1916, Alpini sul Monte Nero</h5>
+								    	<p class="card-text">Da <i>Centro di Ricerca e Archiviazione della Fotografia</i> (<a href="http://www.censimento.fotografia.italia.it/archivi/archivio-guerre-del-900/" target="_blank">CRAF</a>)</p>
+								    	<a href="http://www.censimento.fotografia.italia.it/wp-content/uploads/2017/05/2-Alpini-sul-monte-Nero-1916.-Limportante-vetta-fu-conquistata-lanno-precedente-con-1.jpg" class="btn btn-outline-secondary" target="_blank">Visualizza</a>
+								    	<a href="#" class="btn btn-outline-primary mt-1" target="_blank">Metadati</a>
+								  	</div>
+								</div>
+							</div>
+							<div class="col-md-4 mt-3 p-3">
+								<div class="card card-item" style="width: 18rem;">
+								  	<img src="imm-es/imm-item/osped-mil.jpg" class="card-img-top" alt="Ospedale Militare">
+								  	<div class="card-body">
+								    	<h5 class="card-title">Ospedale militare italiano lungo la mulattiera Dosso Casina - Rio dell'Acqua (MGR 2/584)</h5>
+								    	<p class="card-text">Da <i>Museo Storico Italiano della Guerra</i> - Archivio fotografico (<a href="https://archivimuseodellaguerra.archiui.com/" target="_blank">Sito</a>)</p>
+								    	<a href="#" class="btn btn-outline-secondary" target="_blank">Visualizza</a>
+								    	<a href="#" class="btn btn-outline-primary mt-1" target="_blank">Metadati</a>
+								  	</div>
+								</div>
+							</div>
+							<div class="col-md-4 mt-3 p-3">
+								<div class="card card-item" style="width: 18rem;">
+								  	<img src="imm-es/imm-item/rancio.jpg" class="card-img-top" alt="Trasporto Rancio">
+								  	<div class="card-body">
+								    	<h5 class="card-title">Avio. Trasporto del rancio verso il fronte (119/123)</h5>
+								    	<p class="card-text">Da <i>Museo Storico Italiano della Guerra</i> - Archivio fotografico (<a href="https://archivimuseodellaguerra.archiui.com/" target="_blank">Sito</a>)</p>
+								    	<a href="#" class="btn btn-outline-secondary" target="_blank">Visualizza</a>
+								    	<a href="#" class="btn btn-outline-primary mt-1" target="_blank">Metadati</a>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-4 mt-3 p-3">
+								<div class="card card-item" style="width: 18rem;">
+								  	<img src="imm-es/imm-item/trent-carso2.jpg" class="card-img-top" alt="Dal Trentino al Carso">
+								  	<div class="card-body">
+								    	<h5 class="card-title">Dal Trentino al Carso</h5>
+								    	<p class="card-text">Luigi Barzini, <i>La guerra d'Italia. Dal Trentino al Carso</i> (<a href="https://archive.org/" target="_blank">Internet Archive</a>)</p>
+								    	<a href="#" class="btn btn-outline-secondary" target="_blank">Visualizza</a>
+								    	<a href="card-item.html" class="btn btn-outline-primary mt-1" target="_blank">Metadati</a>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12 p-3">
+								<nav aria-label="Page navigation example">
+								  	<ul class="pagination justify-content-center">
+								    	<li class="page-item">
+								      		<a class="page-link" href="#" aria-label="Previous">
+								        		<span aria-hidden="true">&laquo;</span>
+								      		</a>
+								    	</li>
+								    	<li class="page-item"><a class="page-link" href="#">1</a></li>
+								    	<li class="page-item"><a class="page-link" href="#">2</a></li>
+								    	<li class="page-item"><a class="page-link" href="#">3</a></li>
+								    	<li class="page-item">
+								      		<a class="page-link" href="#" aria-label="Next">
+								        		<span aria-hidden="true">&raquo;</span>
+								      		</a>
+								    	</li>
+								  	</ul>
+								</nav>
+							</div>
+						</div>
+	      			</div>
+	      			<div class="col-md-1 p-2">
+	      				<aside>
+	      					<button type="button" class="btn btn-success"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-question-diamond-fill mr-1" viewBox="0 0 16 16">
+  							<path d="M9.05.435c-.58-.58-1.52-.58-2.1 0L.436 6.95c-.58.58-.58 1.519 0 2.098l6.516 6.516c.58.58 1.519.58 2.098 0l6.516-6.516c.58-.58.58-1.519 0-2.098L9.05.435zM5.495 6.033a.237.237 0 0 1-.24-.247C5.35 4.091 6.737 3.5 8.005 3.5c1.396 0 2.672.73 2.672 2.24 0 1.08-.635 1.594-1.244 2.057-.737.559-1.01.768-1.01 1.486v.105a.25.25 0 0 1-.25.25h-.81a.25.25 0 0 1-.25-.246l-.004-.217c-.038-.927.495-1.498 1.168-1.987.59-.444.965-.736.965-1.371 0-.825-.628-1.168-1.314-1.168-.803 0-1.253.478-1.342 1.134-.018.137-.128.25-.266.25h-.825zm2.325 6.443c-.584 0-1.009-.394-1.009-.927 0-.552.425-.94 1.01-.94.609 0 1.028.388 1.028.94 0 .533-.42.927-1.029.927z"/>
+							</svg>Guida</button>
+	      				</aside>
+	      			</div>
+	      		</div>
+	    	</section>
+	    </main>
+
+	    <footer>
+			<section class="container-fluid mt-2">
+				<div class="row">
+					<div class="col-md-12 text-center">
+					  	<img src="imm-es/logo-unibo.jpg" class="text-center" alt="Logo Unibo">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 bg-white text-dark">
+						<h7>&copy; Davide Gardini, Corso di DH & CH, 2021</h7>
+					</div>
+				</div>
+			</section>
+		</footer>	
+		<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+	</body>
+</html>
